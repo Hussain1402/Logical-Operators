@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int maths,chem,python,C++;
+    int maths,chem,python,C;
 
     cout<<"Enter your marks: ";
-    cin>>maths>>chem>>python>>C++;
+    cin>>maths>>chem>>python>>C;
 
-    int tot = (maths+chem+python+C++)/4;
+    int tot = (maths+chem+python+C)/4;
     cout<<"You have scored: "<<tot<<"%"<<"\n";
 
     if(tot>=90)
